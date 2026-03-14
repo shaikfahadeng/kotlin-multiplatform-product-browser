@@ -33,3 +33,48 @@ in your IDE’s toolbar or open the [/iosApp](./iosApp) directory in Xcode and r
 ---
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+
+# Product Browser App (Kotlin Multiplatform)
+
+A cross-platform product catalog prototype built using **Kotlin Compose Multiplatform**.  
+The application demonstrates **Clean Architecture**, API integration, and reactive UI state management.
+
+## Features
+
+- View product list with name, price, and thumbnail
+- View detailed product information
+- Search products using API
+- Optional filtering by category
+
+## Tech Stack
+
+- Kotlin Multiplatform
+- Compose Multiplatform
+- Ktor Client
+- kotlinx.serialization
+- StateFlow
+- Clean Architecture
+
+## API
+
+This project uses the DummyJSON API to simulate a product catalog backend.
+
+https://dummyjson.com/products
+
+## Architecture
+
+data → API / DTO / Repository
+domain → Models / Use cases
+presentation → ViewModel / Compose UI
+
+## Running the Project
+
+1. Clone the repository
+2. Open in Android Studio
+3. Sync Gradle
+4. Run the Android target
+
+## Author
+
+Shaik Fahad
